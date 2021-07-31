@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/background"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="130dp"
+        android:paddingBottom="50dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/islamic_corners">
+
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerHorizontal="true"
+            android:text="سُبْحَانَ اللَّه"
+            android:textAlignment="center"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="25dp"
+            android:autoSizeMaxTextSize="70dp"
+            android:autoSizeStepGranularity="2dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/counter"
+            android:layout_width="640px"
+            android:layout_height="640px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/islamic_flower"
+            android:text="اضغط\nهنا"
+            android:textAlignment="center"
+            android:lineSpacingMultiplier="0.6"
+            android:textColor="@color/blue"
+            android:textSize="40dp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="src_over" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/reset"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="src_over" />
+
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/audio_on"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="src_over" />
+
+        <Button
+            android:id="@+id/theme"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/dark_mode"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="src_over" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

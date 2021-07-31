@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.عدادتسبيح" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/grey</item>
+        <item name="colorSecondaryVariant">@color/grey</item>
+        <item name="colorOnSecondary">@color/grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:titleTextColor" tools:targetApi="l">?attr/colorSecondaryVariant</item>
+    </style>
+</resources>
